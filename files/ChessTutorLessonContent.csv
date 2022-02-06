@@ -1,0 +1,148 @@
+Lesson Title / Name,Scenario Name,Pieces (Piecetype.row.column.iswhite),Lesson Description/Content 'COMMA' is a place holder for commas
+Fundamentals: The Pawn,4 Pawns,Pawn.0.0.true.Pawn.0.1.true.Pawn.3.1.false.Pawn.3.2.false,"The Pawn. Many players consider this piece as the weakestCOMMA but can be deadly when used effectively.
+
+Pawns are usually the first pieces to move in a game (The move order in chess is white goes firstCOMMA then black and repeat until there's a winner or draw).
+
+Each player starts off with 8 pawns on the second row from their perspective. From their starting positionsCOMMA a pawn can move either 2 squares forward or 1 square forward in a line.
+
+After the first moveCOMMA a pawn can only move 1 square forward in a line. 
+To capture a piece using a pawnCOMMA it can only capture diagonally. The piece in front of the pawn cannot be captured by the pawn.
+
+Pawns cannot move backwards but if they reach the opponents row 1 (end of the board) the pawn is able to promote into any piece other than the king).
+
+I personally like maintaining a pawn structure where each pawn is protected by another pawn."
+Fundamentals: The Bishop,3 Bishops ,Bishop.0.0.true.Bishop.0.3.true.Bishop.3.1.false,"Each player starts off with 2 bishops. One on the dark square and one on the light square.
+
+Bishops can only move diagonallyCOMMA and it can move any amount of distance if there's no piece blocking the path. This means light square bishops will always stay on light squares (Same for dark square bishops).
+
+Points wiseCOMMA bishops are worth 3 points eachCOMMA but many players consider bishop pairs to be worth way more than 6 points due to how strong they are.
+
+Bishops have the same points value as knightsCOMMA so they are approximately equal in strength. HoweverCOMMA a bishop can be better in certain situations than knights.
+
+I personally prefer to place my bishops far away from the action as it can be safe and lethal from afar."
+Fundamentals: The Knight,Battle of the Pieces,Knight.0.1.true.Knight.0.2.true.Bishop.3.1.false.Pawn.2.2.false,"Each player starts off with 2 knights located in between the bishops and the rooks.
+
+Out of all of the piecesCOMMA the knight has the most unique movement. Instead of moving in straight lines or diagonallyCOMMA a knight moves in a shape of a L. More specifically 2 squares up or down and 1 square left or rightCOMMA or 2 squares left or right and 1 square up or down.
+
+The knight can move to any empty square even if there are pieces in between the starting point and destination. Due to a knight's horse like natureCOMMA it is able to hop over pieces to reach its destination.
+
+Knights have the same points value as bishopsCOMMA 3 pointsCOMMA so they are approximately equal in strength. HoweverCOMMA a knight can be better in certain situations than bishops.
+
+Fun fact: The knightCOMMA along with the king and rook are the oldest defined movement chess piece. Its movement remained the same for over 15 centuries!"
+Fundamentals: The Rook,Crossy Road,Rook.1.0.false.Rook.2.0.false.Rook.3.1.true.Pawn.0.3.true,"Each player starts off with 2 rooks located at the corners of their own side of the board.
+
+The rook moves in a straight line either horizontally or vertically. It can move through any empty squares but cannot go over pieces.
+
+Rooks have a point value of 5COMMA which is considered to be stronger than bishopsCOMMA knights and pawns. Two rooks are also considered stronger than a single queen
+
+Rooks can be very strong when used correctly as it can take a control of a whole row orCOMMA more commonlyCOMMA a whole column.
+
+Fun fact: Rooks resemble the towers of a castleCOMMA so it makes the structure look very organized being at the corners of the board."
+Fundamentals: The Queen,The Queen,Queen.1.1.true.Rook.0.0.false.Knight.0.1.false.Pawn.1.0.false.Knight.3.3.false,"Each player starts off with only 1 queen and is placed beside the king.
+
+The queen is considered to be the strongest piece in the game of chess. It is able to move any amount of squares verticallyCOMMA horizontally or diagonallyCOMMA essentially combining the movement of a bishop and a rook.
+
+A queen is worth 9 points which is the highest point value for a single piece. Being so valuableCOMMA it's almost never worth it to trade the queen for another piece unless it's a queen.
+
+Losing the queen usually is detrimental for the player.
+
+Fun fact: SometimesCOMMA players would sacrifice their queen to gain a more favourable tactical positionCOMMA which can be more valuableCOMMA or force a win."
+Fundamentals: The King,Your Majesty,Pawn.1.0.true.Queen.0.0.true.Pawn.1.2.true.Pawn.1.3.true.King.0.3.true.Pawn.2.0.false.Pawn.2.1.false.King.3.0.false,"Each player starts off with 1 king and only 1 king can be on the board at any time.
+
+A king is the most important piece on the chess board as it determines the status of the game or in other wordsCOMMA who wins and who loses.
+
+A king can move horizontallyCOMMA verticallyCOMMA and diagonally but only 1 square. A king cannot move to a place where the king would be in check.
+
+A check is when a player's king is threatened to be captured by an opposing player's piece. The player must stop the check either by moving the king out of the way or blocking the check. If it cannot be doneCOMMA the king would be in checkmateCOMMA which would result in a loss for the player who's king is checkmated.
+
+A king cannot be beside another king as it would be considered as illegal.
+"
+Fundamentals: Castling,Protect the King,Pawn.1.0.true.Pawn.1.1.true.Pawn.1.2.true.Pawn.1.3.true.King.0.0.true.Rook.0.3.true.Rook.3.0.false.Rook.3.1.false.Rook.3.2.false,"Castling is a special move that is often very useful for getting a player's king to safety. It is also the only move where more than 1 piece move at one time and the only move where the king can move more than 1 square.
+
+Castling involves the king moving 2 squares towards a rook on the player's first row then moving the rook to the square that the king crossed.
+
+Many conditions also have to be met to perform castling. These include: Neither the king nor the rook has movedCOMMA there are no pieces in betweenCOMMA the king is not checkedCOMMA the king does not pass or go to a square that will result it being checked.
+
+In this applicationCOMMA it will automatically castleCOMMA but in real lifeCOMMA always move the pieces with one hand and always move the king first. SometimesCOMMA players will consider the move illegal if the player moves with the rook first and when touch move applies (only move the piece a player touches first).
+
+Although it puts the king in a safe situationCOMMA it doesn't always and sometimes there's no need to castle if there are better moves."
+Fundamentals: Setting up the board,Standard Setup,Pawn.1.0.true.Pawn.1.1.true.Pawn.1.2.true.Pawn.1.3.true.Rook.0.0.true.Rook.0.3.true.Queen.0.1.true.King.0.2.true.Pawn.2.0.false.Pawn.2.1.false.Pawn.2.2.false.Pawn.2.3.false.Rook.3.0.false.Rook.3.3.false.Queen.3.1.false.King.3.2.false,"When describing the positions of chess piecesCOMMA players usually use a notation called Algebraic Notation. It consists of 1 letter from the column axis (a-h) and 1 number from the row axis(0-8). For exampleCOMMA the bottom left corner would be a1 and the top right corner would be h8.
+
+The scenario shown is on a 4 by 4 board but in standard games the board is 8 by 8. To play a standard gameCOMMA click the play against AI that can be found at the home screen.
+
+Standard Setup: White | Black
+Pawns: (a-h)2 | (a-h)7
+Rooks: a1COMMA h1 | a8COMMA h8
+Knights: b1COMMA g1 | b8COMMA g8
+Bishops: c1COMMA f1 | c8COMMA f8
+Queens: d1 | d8
+Kings: e1 | e8"
+Fundamentals: Stopping a check,King in Danger,Pawn.1.1.true.Rook.3.0.false.King.0.0.true.Rook.2.3.true.Rook.3.3.true,"When a player's king is in checkCOMMA they must escape it. If they cannotCOMMA it's a checkmate and they lose.
+
+There are three ways to get out of check: 
+1. Move the king out of check
+2. Block the check with another piece
+3. Capture the checking piece.
+
+In this scenarioCOMMA your king is under attack / under check. What will you do to stop the check?
+
+
+Tip: If it's worth the trade (you gain an advantage over your opponent)COMMA capture the attacking piece."
+Fundamentals: Protecting Pieces,Unbreakable Pawns,Pawn.1.0.true.Pawn.2.1.true.Pawn.1.2.true.Pawn.2.3.true.Bishop.0.1.true.Knight.0.3.true.Pawn.2.0.false.Pawn.3.1.false.Pawn.2.2.false.Pawn.3.3.False,"Protecting pieces is an important concept all chess players use. If a piece has no protectionCOMMA it becomes vulnerable to the enemy pieces and can be captured at no cost for the enemy. An unprotected piece is called a 'hanging piece.'
+
+HoweverCOMMA if a piece like the pawn is protected by a bishopCOMMA it wouldn't be worth for the enemy to capture a pawn with a knight for exampleCOMMA as your bishop can re-capture the knight and gain a 2 point advantage.
+
+When most or all the pieces are protectedCOMMA it becomes really hard for the opponent to attack and put your king in danger. A strategy many players use is pressuring the opponent pieces while keeping the attacking pieces protected.
+
+In the scenarioCOMMA both white and black have good pawn structure where the pawns are protecting each other. It becomes hard to break the structure while maintaining a point advantage. Try it for yourself! See if you can break the pawn structure and gain an advantage over the opponent."
+Fundamentals: Developing Pieces,Early Game,Pawn.1.0.true.Pawn.1.1.true.Pawn.1.2.true.Pawn.1.3.true.Rook.0.0.true.Queen.0.1.true.Knight.0.2.true.Bishop.0.3.true,"Developing pieces is an important concept that is crucial for taking space on the board and gaining advantages over the opponent. It is also the most important rule during the early stages of the game.
+
+Developing pieces is when a player moves the pieces out from their starting squares to gain more value out of themCOMMA either enabling the ability to attack opponentCOMMA taking spaceCOMMA or protecting pieces.
+
+When a piece is undevelopedCOMMA it doesn't provide much value to the player as it's more or less a sleeping piece.
+
+It is more advantageous to have multiple pieces working in unison rather than only one or two pieces moving and possibly getting stuck and captured.
+
+In this scenarioCOMMA there are 8 undeveloped pieces. Try to develop them while protecting each other and taking space on the board. RememberCOMMA more developed pieces creates more value which creates more advantages over your opponent!"
+Key Concepts: Under Promotion,No Queens Needed,Pawn.3.3.false.Pawn.3.2.false.Pawn.2.2.false.Pawn.1.2.false.Pawn.1.3.false.King.2.3.false.Pawn.2.1.true,"Although it is tempting to always promote to a queen whenever the pawn gets to the end of the boardCOMMA sometimesCOMMA promoting to another piece other than a queen may be more advantageous in certain situations.
+
+Underpromotion is when a pawn promotes to a rookCOMMA bishop or knightCOMMA but it's rare as a queen is more desirable. 
+
+Certain situations like the one presented will favour underpromotion and it will be way better to promote to another piece other than the queen.
+
+In the scenarioCOMMA try to find a move that will checkmate the black king. Hint: No queens are needed to checkmate.
+
+Fun fact: Out of 3COMMA200COMMA200 games with many at grandmaster or master levels (highest rankings in chess)COMMA almost 97% of the promotions are queen promotions and almost 2% of the underpromotions are knight promotions. It is very rare for a scenario where underpromotion shinesCOMMA but it can be deadly when applicable."
+Key Concepts: Forks,Double Attack!,Pawn.1.0.true.Pawn.1.1.true.Pawn.1.2.true.Pawn.1.3.true.King.0.1.true.Rook.3.0.false.Rook.3.2.false,"A fork. NoCOMMA not the kitchenwareCOMMA but a tactic in chess that can help the player gain a signifcant advantage over the opponent.
+
+A fork in chess is when a piece simultaneously attack two or more pieces. A fork makes it difficult for the defender to resolve two or more threats at the same timeCOMMA so most of the timeCOMMA it will result in the capture of an opponent piece.
+
+A fork can also put the king in check which forces the opponent to get out of the check and lose the other piece(s) being threatened.
+
+Although all the pieces are capable of the forkCOMMA the knightCOMMA due to the unique way it movesCOMMA is the most lethal when it comes to fork. It is also a minor piece compared to a queenCOMMA so trading a knight with a rook will be advantageous.
+
+Try to fork the opponent in this scenario!
+
+Fun fact: A common and famous chess opening called the 'Fried Liver AttackCOMMA' utilizes a fork that can capture the opponent queen or rook when used incorrectly."
+Key Concepts: Pins,Immovable Knight,Bishop.3.3.false.Knight.2.2.true.King.0.0.true.Bishop.0.2.true.Rook.3.0.true,"A pin is a tactic where a piece cannot move without exposing a more valuable piece to the opponent. Pins can only be done with bishopsCOMMA rooks and queens as they can continue to attack the pieces behind the initially attacked piece. 
+
+There are two types of pins in chess: 
+
+An absolute pin is where the piece behind the pinned piece is the kingCOMMA which means it will be illegal for the player to move the pinned piece as that will put the king in check.
+
+A relative pin is a pin where the piece behind the pinned piece is any piece other than the kingCOMMA but the piece behind is usually more valuable than the pinned piece (e.g. a knight is the pinned pieceCOMMA a queen is behind the pinned piece.
+
+In this scenarioCOMMA you are in an absolute pin. How would you escape / remove the pin?
+
+Fun Fact: A pin is a very commonly used tactics and are used in various popular openings.
+
+"
+Key Concepts: Game Phases,The Endgame,Pawn.0.0.true.King.1.1.true.King.3.3.false,"In chessCOMMA the stages of the games are categorized into three stages: 
+
+The openingCOMMA where piece development and center control occurs.
+
+The middlegameCOMMA where players maneuver pieces in defense or attack to weaken the king's defenses.
+
+The endgameCOMMA which usually occurs when several piece exchanges occur and there are only a few pieces on the board. In the endgameCOMMA pawn promotion usually becomes a priority as the first player to promote usually wins the game.
+
+In this scenarioCOMMA you are in an endgame with only one pawn and a king left. Try to promote and checkmate the enemy king while keeping your pawn protected at all time!"

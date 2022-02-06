@@ -1,0 +1,6 @@
+Puzzle Name / Type,Pieces (Piecetype.row.column.iswhite)
+Mate In One!,King.0.2.true.Rook.0.3.true.Pawn.1.0.true.Pawn.1.1.true.Pawn.1.2.true.Pawn.2.7.true.Pawn.3.6.true.Pawn.4.6.false.Pawn.5.2.false.Knight.4.2.true.Pawn.5.7.false.Pawn.6.0.false.Pawn.6.3.false.Rook.6.5.true.Rook.7.1.false.Queen.7.2.false.King.7.3.false.Knight.7.4.false.Rook.7.7.false
+Mate In One!,Rook.0.3.true.King.0.6.true.Pawn.1.0.true.Pawn.1.5.true.Pawn.1.6.true.Pawn.1.7.true.Bishop.2.0.true.Pawn.2.2.true.Queen.2.5.false.Bishop.5.1.false.Pawn.5.5.true.Pawn.6.0.false.Bishop.6.1.false.Pawn.6.2.false.Bishop.6.3.true.Knight.6.4.false.Pawn.6.5.false.Pawn.6.7.false.Rook.7.1.false.King.7.3.false.Rook.7.6.false
+Mate In Two!,King.0.0.true.Rook.0.1.true.Queen.1.6.false.Rook.2.1.true.Queen.2.4.true.Pawn.6.0.false.King.7.0.false.Rook.7.1.false.Rook.7.7.false
+Mate In Two!,Rook.0.0.true.Pawn.5.1.true.Pawn.6.0.false.Pawn.6.1.false.King.7.0.false.Bishop.7.1.false.King.7.2.true
+Mate In Three!,Rook.0.5.true.King.0.6.true.Pawn.1.0.true.Pawn.1.1.true.Pawn.1.2.true.Pawn.1.6.true.Rook.2.5.true.Pawn.3.3.true.Pawn.3.4.true.Bishop.3.6.false.Pawn.5.3.false.Pawn.5.6.false.Queen.5.7.true.Pawn.6.0.false.Pawn.6.1.false.Pawn.6.2.false.Rook.7.0.false.Queen.7.4.false.King.7.6.false.Rook.7.7.false
