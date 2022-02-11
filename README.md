@@ -35,3 +35,17 @@ How to run
 -----------
 Run ChessTutorApplication.java to start
  
+Previews
+--------
+
+![](preview/Preview1.jpg)
+
+![](preview/Preview2.jpg)
+
+![](preview/Preview3.jpg)
+
+![](preview/Preview4.jpg)
+
+![](preview/Preview5.jpg)
+
+![](preview/Preview6.jpg)
