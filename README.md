@@ -1,6 +1,6 @@
-# Chess Tutor
+# iChess
 
-The Tutor
+Chess Tutor
 ----------
 
  - Personal chess tutor that can teach anyone how to play chess.
